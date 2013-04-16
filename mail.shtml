@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title> Coder's Club: Meetings </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!--<script type="text/javascript" src="DAQ.js"></script>-->
+</head>
+
+<body>
+    <div id="header">
+	<!--#include virtual="top_nav.html" -->
+    </div>
+    <div id="container">
+	<div id="center" class="column">
+	    <div  class="column">
+		<h1>Mailing List</h1>
+		<ul>
+		    <li>How to join the list</li>
+		    <li>Rules / expectiations for using it</li>
+		</ul>
+	    </div>
+	</div>
+
+	<div id="left" class="column">
+	    <!--#include virtual="menu_1.html" -->
+	</div>
+    </div>
+    <div id="footer">
+	Coder's Club, Imperial College London<br/>
+    </div>
+</body>
+</html>
