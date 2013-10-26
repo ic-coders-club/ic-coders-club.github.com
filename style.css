@@ -1,81 +1,157 @@
+html { height:100%;}
 body {
-    min-width: 400px;      /* 2x LC width + RC width */
-    font-family:Arial, sans-serif;
+        height:100%;
+        min-width: 240px;      
+        background-color:white;
+        font-family:"Dosis","Gill Sans","Century gothic","Gill Sans",Arial, sans-serif;
 }
-#container {
-    padding-left: 190px;   /* LC width */
-    padding-right: 0px;  /* RC width */
-    margin-left:0;
-    margin-right:0;
-    margin-top:0;
-    margin-bottom:0;
-    padding-bottom:20px;
-    height:100%;
+.block{
+        width:25%;
+        height:110px;
+        line-height:110px;
+        text-align:center;
+        background-color:#3366CC;
+        color:white;
+        font-size:23pt;
+        -webkit-border-radius: 60px;
+        -moz-border-radius: 60px;
+        border-radius: 60px;
+        position:fixed;
 }
-#container .column {
-    position: relative;
-    float: left;
+
+a {
+        display:block;
+        text-decoration:none;
 }
-#center {
-    width: 100%;
-    background-color:#FFFFFF;
+
+.block:hover {
+        /*
+        text-shadow: 0px 4px 14px black;
+        -moz-box-shadow:    none;
+        -webkit-box-shadow: none;
+        box-shadow:         none;
+        */
+        -moz-box-shadow:    inset 0 0 10px #000000;
+        -webkit-box-shadow: inset 0 0 10px #000000;
+        box-shadow:         inset 0 0 10px #000000;
 }
-#header {
-    display: table-cell; 
-    padding-left:10px;
-    background-color:#B80F30;
-    text-align: left;
-    color:#FFFFFF;
-    width:10000px
-    /*
-    height:50px;
-    */
+
+.block:hover .description{
+        visibility:visible;
+        /*
+        text-shadow: none;
+        */
 }
-#footer {
-    padding:5px;
-    background-color:#B80F30;
-    position: relative;
-    margin-top: -20px; /* negative value of footer height */
-    height: 20px;
-    clear:both;
-    color:#FFFFFF;
+
+.description{
+        text-align:center;
+        width:90%;
+        margin-left:5%;
+        height:50px;
+        color:black;
+        font-size:13pt;
+        line-height:15pt;
+        visibility:hidden;
+        /*
+        border:solid black 1px;
+         */
 }
-#header h1 {
-    font-size:24pt;
+ul {
+        padding-top:0;
+        margin-top:0;
 }
-#left {
-    width: 180px;          /* LC width */
-    right: 190px;          /* LC width */
-    margin-left: -100%;
-    background-color:#b65856;
-    height:1180px;
-    padding-left:5px
+
+#top-left{
+        top:15%;
+        left:10%;
 }
-#left h1 {
-    font-weight:bold;
-    text-align:left;
-    font-size:14pt;
-    /*
-     */
+#top-left-arrow{
+        top:22%;
+        left:35%;
 }
-#left body {
-    font-family:courier;
-    margin-left:10px;
-    background-color:#b65856;
-    text-align:left;
-    font-weight:bold;
-    font-size:19pt;
-    /*
-     */
+#top-left-description{
 }
-#left a.one {
-    text-decoration:none;
-    padding-left:20px;
-    font-size:14pt;
+
+#top-right{
+        top:15%;
+        right:10%;
 }
-#left a.two {
-    text-decoration:none;
+#top-right-arrow{
+        top:22%;
+        right:35%;
 }
-#left a.one:after{
-    content:";";
+#top-right-description{
+}
+
+#bottom-left{
+        bottom:15%;
+        left:10%;
+}
+#bottom-left-arrow{
+        bottom:31%;
+        left:22.5%;
+}
+#bottom-left-description{
+}
+
+#bottom-right{
+        bottom:15%;
+        right:10%;
+}
+#bottom-right-arrow{
+        bottom:31%;
+        right:22.5%;
+}
+#bottom-right-description{
+}
+
+#center{
+        position:fixed;
+        background-color:#000099;
+        width:35%;
+        top:40%;
+        left:32.5%;
+        text-shadow: 0px 4px 14px black;
+        font-weight:bold;
+}
+#center-description{
+        text-align:left;
+        font-weight:normal;
+        text-shadow: none;
+        visibility:visible;
+}
+#center:hover {
+        -moz-box-shadow:    none;
+        -webkit-box-shadow: none;
+        box-shadow:         none;
+}
+.arrow{
+        height:150px;
+        width:150px;
+        background-repeat: no-repeat;
+        background-image:url("webpage_arrow.png" );
+        background-size:100%;
+        position:fixed;
+        z-index:-1;
+}
+
+.rotate{
+         -webkit-transform: rotate(270deg);
+         -moz-transform: rotate(270deg);
+         filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.flip{
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+.rotate-flip {
+        -moz-transform rotate(270deg) scaleY(-1);
+        -o-transform rotate(270deg) scaleY(-1);
+        -webkit-transform: rotate(270deg) scaleY(-1);
+        transform rotate(270deg) scaleY(-1);
 }
