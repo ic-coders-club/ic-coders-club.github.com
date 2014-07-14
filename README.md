@@ -1,8 +1,8 @@
 ichep-coders-club.github.com
 =====================
 
-A proposed home page for the Coders Club.  
-Depending on how the wiki turn's out, this may or may not be maintained.
+The html for the homepage of the Imperial College London HEP coders club.
+Also used to house attachments that are linked to in the wiki.
 
 Access this page through the address: <http://ichep-coders-club.github.com/>
 
