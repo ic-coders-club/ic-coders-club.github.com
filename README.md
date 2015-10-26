@@ -1,4 +1,4 @@
-ichep-coders-club.github.com
+ic-coders-club.github.com
 =====================
 
 The html for the homepage of the Imperial College London HEP coders club.
