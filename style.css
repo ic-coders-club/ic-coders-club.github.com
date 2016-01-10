@@ -72,7 +72,7 @@ ul {
         left:10%;
 }
 #top-left-arrow{
-        top:22%;
+        top:20%;
         left:35%;
 }
 #top-left-description{
@@ -83,7 +83,7 @@ ul {
         right:10%;
 }
 #top-right-arrow{
-        top:22%;
+        top:20%;
         right:35%;
 }
 #top-right-description{
@@ -94,8 +94,8 @@ ul {
         left:10%;
 }
 #bottom-left-arrow{
-        bottom:31%;
-        left:22.5%;
+        bottom:37%;
+        left:20%;
 }
 #bottom-left-description{
 }
@@ -105,8 +105,8 @@ ul {
         right:10%;
 }
 #bottom-right-arrow{
-        bottom:31%;
-        right:22.5%;
+        bottom:37%;
+        right:20%;
 }
 #bottom-right-description{
 }
@@ -133,11 +133,11 @@ ul {
         box-shadow:         none;
 }
 .arrow{
-        height:150px;
-        width:150px;
+        height:18%;
+        width:15%;
         background-repeat: no-repeat;
         background-image:url("webpage_arrow.png" );
-        background-size:100%;
+        background-size:contain;
         position:fixed;
         z-index:-1;
 }
@@ -161,4 +161,9 @@ ul {
         -o-transform :rotate(270deg) scaleY(-1);
         -webkit-transform: rotate(270deg) scaleY(-1);
         transform :rotate(270deg) scaleY(-1);
+}
+
+#ic-logo {
+width:16%;
+position:fixed; 
 }
