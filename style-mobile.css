@@ -1,0 +1,28 @@
+.description{
+        visibility:visible;
+}
+#center{
+	height:auto;
+}
+#center-description{
+	height:auto;
+	max-width:80%;
+        text-align:left;
+	color:white;
+	font-size:14pt;
+        font-weight:normal;
+        text-shadow: none;
+        visibility:visible;
+        margin-left:20%;
+}
+#ic-logo {
+width:36%;
+height:auto;
+bottom:0%;
+position:relative;
+}
+.block{
+	height:100px;
+	position:static;
+	margin:10pt;
+}
